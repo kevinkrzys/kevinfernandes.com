@@ -24,13 +24,42 @@
 
   <link rel="icon" href="./img/favicon.ico" type="image/gif" sizes="16x16">
 
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body id="page-top">
-
-  
   <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
+  <span class="fixed-top d-inline-flex">
+    <a
+      href="https://www.facebook.com/zakegraffit"
+      target="_blank"
+      data-aos="fade-down"
+      data-aos-delay="1500"
+    >
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a
+      href="https://www.instagram.com/zake_india/"
+      target="_blank"
+      data-aos="fade-down"
+      data-aos-delay="1600"
+    >
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a
+      href="https://www.youtube.com/channel/UCjUhvPxYafI2hcvcg6DkXvw"
+      target="_blank"
+      data-aos="fade-down"
+      data-aos-delay="1700"
+    >
+      <i class="fab fa-youtube"></i>
+    </a>
+  </span>
+
+  <a class="menu-toggle rounded" href="#" data-aos="fade-left" data-aos-delay="1500">
     <i class="fas fa-bars"></i>
   </a>
   <nav id="sidebar-wrapper">
@@ -61,8 +90,8 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Kevin Fernandes</h1>
-      <h3>
+      <h1 class="mb-1" data-aos="zoom-in-up" data-aos-duration="1000">Kevin Fernandes</h1>
+      <h3 data-aos-delay="500" data-aos="zoom-out" data-aos-duration="2000" class="w-50 mx-auto">
         <em>A Curious Visionary</em>
       </h3>
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
@@ -126,9 +155,9 @@
            <!-- · (469) 233-3247 ·
           <a href="mailto:kxf190000@utdallas.edu">kxf190000@utdallas.edu</a> · -->
         
-        <h2 class="mb-5 position-relative">About Me</h2>
+        <h2 class="mb-5 position-relative" data-aos="fade-up">About Me</h2>
 
-        <p class="lead mb-5">I am a self-driven problem solver and innovator who loves to take on additional
+        <p class="lead mb-5" data-aos="fade-up">I am a self-driven problem solver and innovator who loves to take on additional
           responsibilities to challenge myself. I use my cognitive skills to think of efficient ways to do things or
           design new processes. Being naturally curious, I always ponder upon how things work and how they can be made
           better. I am a quick grasper and have an affinity toward gaining more knowledge. Always excited about and
@@ -140,29 +169,23 @@
           and am on the path to be a successful Product Owner and Innovator. I aim to push myself out of my comfort zone
           by taking up responsibilities that challenge me.</p>
         <div class="social-icons">
-          <a class="linkedin" href="https://www.linkedin.com/in/fernandes-kevin/" target="_blank">
+          <a class="linkedin" href="https://www.linkedin.com/in/fernandes-kevin/" target="_blank" data-aos="fade-up">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a class="github" href="https://github.com/kevinkrzys" target="_blank">
+          <a class="github" href="https://github.com/kevinkrzys" target="_blank" data-aos="fade-up" data-aos-delay="100">
             <i class="fab fa-github"></i>
           </a>
-          <a class="facebook" href="https://www.facebook.com/kevin.fernandes.967" target="_blank">
+          <a class="facebook" href="https://www.facebook.com/kevin.fernandes.967" target="_blank" data-aos="fade-up" data-aos-delay="200">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
       </div>
     </section>
-
     
-
-    <section class="banner text-center" id=journeybanner>
-      <h2>My Journey</h2>
+   <section class="banner text-center" id=journeybanner>
+      <h2 data-aos="fade-up">My Journey</h2>
     </section>
 
-    
-
-
-    
   <!-- Journey -->
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="journey">
       <div class="w-100">
@@ -259,7 +282,7 @@
   
   
   <section class="banner text-center" id=skillsbanner>
-    <h2>My Skills</h2>
+    <h2 data-aos="fade-up">My Skills</h2>
   </section>
 
   
@@ -736,7 +759,7 @@
     
 
     <section class="banner text-center" id=contactbanner>
-      <h2>Contact Me</h2>
+      <h2 data-aos="fade-up">Contact Me</h2>
     </section>
   
     
@@ -795,6 +818,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

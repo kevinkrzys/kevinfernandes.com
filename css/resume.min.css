@@ -593,3 +593,22 @@ section.banner > h2 {
 .list-inline-item:not(:last-child) {
   margin-right: -0.3rem;
 }
+
+.fixed-top {
+  top: 15px;
+  left: 15px;
+  width: 110px;
+}
+
+.fixed-top a {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #000000bf;
+  border-radius: 50%;
+  color: white;
+  margin-right: 0.2rem;
+}
