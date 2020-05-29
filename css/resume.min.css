@@ -576,6 +576,10 @@ section.banner > h2 {
   background: url("../img/contact.jfif") center center fixed no-repeat;
 }
 
+.banner#projectsbanner {
+  background: url("../img/projects.jfif") center center fixed no-repeat;
+}
+
 .banner {
   background-size: cover !important;
 }
