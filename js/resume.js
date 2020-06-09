@@ -45,9 +45,8 @@
     }
   });
 
-  
   // Scroll to top button appear
-  $(document).scroll(function() {
+  $(document).scroll(function () {
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
       $('.scroll-to-top').fadeIn();
@@ -72,5 +71,14 @@
   // $('body').scrollspy({
   //   target: '#sideNav'
   // });
+
+  // Skills section
+  $('.skills-content').waypoint(function () {
+    $('.progress .progress-bar').each(function () {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
+  });
 
 })(jQuery); // End of use strict
