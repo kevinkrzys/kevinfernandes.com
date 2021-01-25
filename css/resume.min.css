@@ -598,7 +598,7 @@ section.banner > h2 {
 
 @media (max-width: 425px) {
   .list-inline-item {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -766,4 +766,10 @@ section.banner > h2 {
 
 #certs > li {
   width: 33%;
+}
+
+@media (max-width: 425px) {
+  #certs > li {
+    width: 100%;
+  }
 }
