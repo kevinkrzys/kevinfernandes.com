@@ -772,7 +772,7 @@ section.banner > h2 {
   width: 20%;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 425px) {
   #certs > li {
     width: 100%;
   }
