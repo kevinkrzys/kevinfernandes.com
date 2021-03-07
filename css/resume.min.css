@@ -768,16 +768,15 @@ section.banner > h2 {
   width: 33%;
 }
 
-#tools > li {
+#tools > li,
+#languages > li {
   width: 20%;
 }
 
 @media (max-width: 425px) {
-  #certs > li {
-    width: 100%;
-  }
-
-  #tools > li {
+  #certs > li,
+  #tools > li,
+  #languages > li {
     width: 100%;
   }
 }
